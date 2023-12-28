@@ -6,15 +6,25 @@ Esse projeto consiste de uma maneira básica fazer a validação dos arquivos ex
 
 * Primeiramente deve rodar o seguinte comando:
     
+    ```python
     python3 -m venv valid
-    
+    ```
+    ```python
     source valid/bin/activate
-
+    ```
+    ```python
     pip install -r requirements.txt  
+    ```
 
 Isso faz necessário para instalar todos os pacotes.
 Para gerar os arquivos .xlsx, vá na pasta dadosFakes. Existe um script em python
 para que possa gerar os arquivos .xlsx
+
+Esse projeto a idéia inicial é fazer upload do arquivo e comparar com o arquivo modelo.
+Ou seja você terá um arquivo modelo.xlsx que irá comparar com o arquivo que for fazer upload e assim terá as informações se está válido ou não.
+
+Na pasta dadosFake, você poderá gerar os arquivos ,xlsx e comparar com o arquivo modelo que vc definir.
+Use sua criatividade.
 
 <br>
 </br>
